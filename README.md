@@ -49,17 +49,18 @@ https://github.com/DFRobot/DFRobot_BNO055 <br>
 ```Python
 sensor_value=0
 SD_Card = 0
-IIS,I2C
-sd_spi_setting;
+IIS=0
+I2C=0
+sd_spi_setting=0
 ```
 
 错误的写法
 
 ```python
-int sensorValue;
-float sensorvalue;
-byte sensor_Value;
-int SDSPISetting;
+sensorValue=0
+sensorvalue=0
+sensor_Value=0
+SDSPISetting=0
 ```
 
 为了各个库之间的互相兼容，必须做到以下几点。<br>
