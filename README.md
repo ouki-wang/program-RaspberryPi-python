@@ -15,6 +15,7 @@ python 封库编程规范
 ## 参考库
 
 https://github.com/DFRobot/DFRobot_RaspberryPi_Motor <br>
+https://github.com/DFRobot/DFRobot_INA219<br>
 
 ## 文件结构与命名
 
