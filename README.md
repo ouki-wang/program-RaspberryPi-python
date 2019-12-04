@@ -26,14 +26,14 @@ https://github.com/DFRobot/DFRobot_RaspberryPi_Motor <br>
 --Python:
 | --RaspberryPi:
 | | --DFRobot_Module.py
-| | --examples
+| | --examples:
 | | | --Modele_demo_xxxx.py
 | | | --Modele_demo_yyy.py
 | | ......
 |
 | --esp32:
 | | --DFRobot_Module.py
-| | --examples
+| | --examples:
 | | | --Modele_demo_xxxx.py
 | | | --Modele_demo_yyy.py
 | | ......
@@ -44,16 +44,18 @@ https://github.com/DFRobot/DFRobot_RaspberryPi_Motor <br>
 例程文件头部注释写法：<br>
 
 <pre>
-""" file 文件名（不能使用中文）
+""" file 文件名
   #
-  # 如何做这个实验，描述实验步骤（只需要下载程序就能肉眼观测到的简单小实验例如blink，这步可以不写）（不能使用中文）
-  # 实验现象是什么（不能使用中文）
+  # 如何做这个实验，描述实验步骤（只需要下载程序就能肉眼观测到的简单小实验例如blink，这步可以不写）
+  # 实验现象是什么
   #
-  # Copyright   [DFRobot](http://www.dfrobot.com), 2016
-  # Copyright   GNU Lesser General Public License
-  #
+  # @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
+  # @licence     The MIT License (MIT)
+  # @author      Alexander(ouki.wang@dfrobot.com)
   # version  V1.0
   # date  2017-10-9
+  # @get from https://www.dfrobot.com
+  # @url https://github.com/DFRobot/DFRobot_PAJ7620U2
 """
 </pre>
 
