@@ -3,7 +3,7 @@
 python语言 RaspberryPi封库编程规范 <br>
 ## 大原则：
  * 看到github，就有购买欲望，并且知道怎么购买
- * 看到ino，就能玩通，尽量不用去查其他资料
+ * 看到python的demo，就能玩通，尽量不用去查其他资料
  * 看到函数名称，就能基本猜到函数功能
  * 如果只有一个存取接口，不要写子类，全部在一个类里实现，比如DFRobot_Sensor，也不要有_IIC的后缀
 ## 细则
@@ -41,22 +41,22 @@ https://github.com/DFRobot/DFRobot_BNO055 <br>
 
 ## 变量及函数命名
 
-*首字母小写, 下个单词首字母大写 <br>
-*专有名词首所有字母大写 <br>
-*有两个专有名词连读的，专有名词首字母大写即可 <br>
+*不再使用驼峰命名，改为小写字母加下划线,例如 sensorInit变为sensor_init <br>
+*专有名词首所有字母大写加下划线，比如 COLOR_RGB888_RED <br>
 
 正确的写法
 
-```C++
-int sensorValue;
-int SDCard,IIS,I2C;
-int SdSpiSetting;
+```Python
+sensor_value=0
+SD_Card = 0
+IIS,I2C
+sd_spi_setting;
 ```
 
 错误的写法
 
-```C++
-int sensor_value;
+```python
+int sensorValue;
 float sensorvalue;
 byte sensor_Value;
 int SDSPISetting;
