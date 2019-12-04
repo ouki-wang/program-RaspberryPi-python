@@ -19,13 +19,13 @@ https://github.com/DFRobot/DFRobot_INA219<br>
 
 ## 文件结构与命名
 
-库可以直接放在 Arduino 封库的根目录下，建立 Python 目录用于存放树莓派的驱动和demo <br>
+库可以直接放在 Arduino 封库的根目录下，建立 python 目录用于存放树莓派的驱动和demo <br>
  <br>
-文档结构应类似如下，如果不与 Arduino 一起使用，则直接将原本 Python 文件夹下的内容放在根目录下: <br>
+文档结构应类似如下，如果不与 Arduino 一起使用，则直接将原本 python 文件夹下的内容放在根目录下: <br>
 <pre>
 
---Python:
-| --RaspberryPi:
+--python:
+| --raspberrypi:
 | | --DFRobot_Module.py
 | | --examples:
 | | | --Modele_demo_xxxx.py
